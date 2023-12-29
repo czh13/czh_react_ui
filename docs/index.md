@@ -1,22 +1,18 @@
 ---
 hero:
-  title: library
-  description: A react library developed with dumi
+  title: React_UI
+  description: A react library from czh
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: let's Goooo
+      link: 'https://czh13.github.io/czh_react_ui/guide'
 features:
-  - title: Hello
+  - title: React Hook
     emoji: 💎
-    description: Put hello description here
-  - title: World
+    description: The library use React Hook
+  - title: TypeScript
     emoji: 🌈
-    description: Put world description here
-  - title: '!'
+    description: The library use TypeScript
+  - title: 'Dumi'
     emoji: 🚀
-    description: Put ! description here
+    description: I would like to appreciate the Dumi to provide the frame
 ---
-
-czh
