@@ -20,5 +20,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs-dist
-          # folder: docs-dist # 部署的目录
-          # branch: gh-pages # 部署到哪个分支
+          folder: docs-dist # 部署的目录
+          branch: gh-pages # 部署到哪个分支
