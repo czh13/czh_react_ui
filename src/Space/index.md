@@ -1,13 +1,13 @@
 ---
-title: Loading
+title: Space
 group:
-  title: 反馈组件
+  title: 布局组件
   order: 1
 ---
 
 ## 介绍
 
-加载展示组件 Loading
+间距组件 Space
 ​
 
 ## 示例

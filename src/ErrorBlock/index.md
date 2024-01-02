@@ -1,9 +1,8 @@
 ---
-category: Components
-title: ErrorBlock # 组件的标题，会在菜单侧边栏展示
+title: ErrorBlock
 group:
-   title: 反馈组件 # 所在分组的名称
-   order: 2 # 分组排序，值越小越靠前
+  title: 反馈组件
+  order: 2
 ---
 
 ## 介绍
