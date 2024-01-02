@@ -15,5 +15,9 @@ export default defineConfig({
   publicPath: '/czh_react_ui/',
   themeConfig: {
     name: 'czh-ui',
+    nav: [
+      { title: '介绍', link: '/guide' },
+      { title: '组件', link: '/components/Foo' },
+    ],
   },
 });

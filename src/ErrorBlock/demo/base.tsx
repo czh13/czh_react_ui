@@ -1,0 +1,24 @@
+import DemoBlock from '@/demos/demo-block';
+import DemoWrap from '@/demos/demo-wrap';
+import { ErrorBlock } from 'czh';
+import React from 'react';
+
+const Base = () => {
+  return (
+    <DemoWrap>
+      <DemoBlock title="基础用法">
+        <ErrorBlock />
+      </DemoBlock>
+
+      <DemoBlock title="自定义title">
+        <ErrorBlock title="网络错误" />
+      </DemoBlock>
+
+      <DemoBlock title="自定义description">
+        <ErrorBlock title="网络错误" description="请刷新页面" />
+      </DemoBlock>
+    </DemoWrap>
+  );
+};
+
+export default Base;

@@ -1,0 +1,50 @@
+$font-size-small: 12px;
+$font-size-medium: 14px;
+$font-size-medium-x: 16px;
+$font-size-large: 18px;
+$font-size-large-x: 22px;
+
+$theme-color: linear-gradient(0deg, #e2ecf6 0%, #e2ecf6 100%);
+$theme-sub-color: #f0f2f5;
+
+:root {
+    // Color
+    --czh-color-primary: #0bafff;
+    --czh-color-success: #00b578;
+    --czh-color-warning: #ff8f1f;
+    --czh-color-danger: #ff3141;
+
+    --czh-color-white: #ffffff;
+    --czh-color-text: #333333;
+    --czh-color-weak: #999999;
+    --czh-color-light: #cccccc;
+    --czh-color-border: #eeeeee;
+    --czh-color-background: #ffffff;
+    --czh-color-box: #f5f5f5;
+
+    // Padding
+    --czh-padding-xs: 4px;
+    --czh-padding-s: 8px;
+    --czh-padding-m: 12px;
+    --czh-padding-l: 16px;
+    --czh-padding-xl: 20px;
+
+    // Border-radius
+    --czh-radius-xs: 4px;
+    --czh-radius-s: 6px;
+    --czh-radius-m: 8px;
+    --czh-radius-l: 10px;
+    --czh-radius-xl: 12px;
+
+    // Font
+    --czh-font-size-xs: 10px;
+    --czh-font-size-s: 12px;
+    --czh-font-size-m: 14px;
+    --czh-font-size-l: 16px;
+    --czh-font-size-xl: 18px;
+    --czh-font-size-xxl: 20px;
+    --czh-font-size-xxxl: 22px;
+
+    --czh-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto,
+        'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}
