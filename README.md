@@ -1,40 +1,28 @@
-# czh
+<h1 align="center">czh_react_ui</h1>
 
-[![NPM version](https://img.shields.io/npm/v/czh.svg?style=flat)](https://npmjs.org/package/czh)
-[![NPM downloads](http://img.shields.io/npm/dm/czh.svg?style=flat)](https://npmjs.org/package/czh)
+<p align="center">📱 A mobile component library based on the <strong>React</strong> framework
 
-A react library developed with dumi
+<p align="center">
+  <a href="https://github.com/czh13/czh_react_ui">document</a>
+</p>
 
-## Usage
+## ✨ Feature
 
-TODO
+- 💎 A set of high-quality React components out of the box.
+- 💪 Written in TypeScript, providing a complete type definition.
+- 📝 Provide complete documentation.
+- 😎 Support on-demand import and Tree Shaking.
+- ⚡️ Support Vite and Webpack.
+- 🌵 Modern browsers.
 
-## Options
+### Installation
 
-TODO
-
-## Development
-
-```bash
-# install dependencies
-$ pnpm install
-
-# develop library by docs demo
-$ pnpm start
-
-# build library source code
-$ pnpm run build
-
-# build library source code in watch mode
-$ pnpm run build:watch
-
-# build docs
-$ pnpm run docs:build
-
-# check your project for potential problems
-$ pnpm run doctor
+```javascript
+coming soon....
 ```
 
-## LICENSE
+#### Code Snippet
 
-MIT
+```jsx
+coming soon....
+```

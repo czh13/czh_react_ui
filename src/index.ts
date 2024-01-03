@@ -8,3 +8,6 @@ export type { LoadingProps } from '@/Loading';
 
 export { default as Space } from '@/Space';
 export type { SpaceProps } from '@/Space';
+
+export { default as Image } from '@/Image';
+export type { ImageProps } from '@/Image';

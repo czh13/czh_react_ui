@@ -1,7 +1,7 @@
 ---
 hero:
   title: React_UI
-  description: A react library from czh
+  description: A react mobile library from czh
   actions:
     - text: let's Goooo
       link: 'https://czh13.github.io/czh_react_ui/guide'

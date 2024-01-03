@@ -1,5 +1,5 @@
-import DemoBlock from '@/demos/demo-block';
-import DemoWrap from '@/demos/demo-wrap';
+import DemoBlock from '@/block/demo-block';
+import DemoWrap from '@/block/demo-wrap';
 import { Space } from 'czh';
 import React from 'react';
 
