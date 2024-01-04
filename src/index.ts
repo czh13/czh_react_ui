@@ -21,3 +21,6 @@ export type { NavBarProps } from '@/NavBar';
 
 export { default as Grid } from '@/Grid';
 export type { GridItemProps, GridProps } from '@/Grid';
+
+export { default as InfiniteList } from '@/InfiniteList';
+export type { InfiniteScrollProps } from '@/InfiniteList';

@@ -12,6 +12,8 @@ import './style/index.scss';
 
 export interface LoadingProps {
   color?: string;
+  size?: number;
+  type?: 'default' | 'special';
 }
 type LoadingStyleType = React.CSSProperties & Partial<Record<'--color', string>>;
 
@@ -19,12 +21,17 @@ const classPrefix = 'czh_loading';
 
 const Loading: React.FC<LoadingProps> = (props) => {
   return (
-    <div className={classPrefix} style={{ '--color': props.color } as LoadingStyleType}>
-      <div className={`${classPrefix}_main`}></div>
+    <div className={classPrefix} style={{ '--color': props.color, '--size': `${props.size}px` } as LoadingStyleType}>
+      <div className={`${classPrefix}_main_${props.type}`}></div>
     </div>
   );
 };
 
 Loading.displayName = 'Loading';
+
+Loading.defaultProps = {
+  type: 'default',
+  size: 30,
+};
 
 export default Loading;

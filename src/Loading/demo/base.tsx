@@ -7,15 +7,20 @@ const Base = () => {
   return (
     <DemoWrap>
       <DemoBlock title="基本用法">
-        <Space direction="horizontal">
-          <div style={{ width: '10px' }}></div>
+        <Space direction="horizontal" align="center">
+          <Loading size={10} />
           <Loading />
+          <Loading size={40} />
         </Space>
       </DemoBlock>
       <DemoBlock title="更换颜色">
         <Space direction="horizontal">
-          <div style={{ width: '10px' }}></div>
           <Loading color="#4507ac" />
+        </Space>
+      </DemoBlock>
+      <DemoBlock title="好玩的">
+        <Space direction="horizontal">
+          <Loading color="#4507ac" type="special" />
         </Space>
       </DemoBlock>
     </DemoWrap>

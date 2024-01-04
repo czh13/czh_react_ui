@@ -1,0 +1,12 @@
+.czh-infinite-scroll {
+    position: relative;
+
+    &-load {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        font-size: var(--czh-font-size-m);
+        color: var(--czh-color-weak);
+    }
+}
