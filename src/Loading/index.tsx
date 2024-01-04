@@ -12,19 +12,14 @@ import './style/index.scss';
 
 export interface LoadingProps {
   color?: string;
-  size?: number;
 }
-type LoadingStyleType = React.CSSProperties &
-  Partial<Record<'--color', string>>;
+type LoadingStyleType = React.CSSProperties & Partial<Record<'--color', string>>;
 
 const classPrefix = 'czh_loading';
 
 const Loading: React.FC<LoadingProps> = (props) => {
   return (
-    <div
-      className={classPrefix}
-      style={{ '--color': props.color } as LoadingStyleType}
-    >
+    <div className={classPrefix} style={{ '--color': props.color } as LoadingStyleType}>
       <div className={`${classPrefix}_main`}></div>
     </div>
   );

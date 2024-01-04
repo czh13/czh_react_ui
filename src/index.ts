@@ -15,3 +15,6 @@ export type { TabProps, TabsProps } from '@/Tabs';
 
 export { default as Toast } from '@/Toast';
 export type { ToastProps, ToastShowProps } from '@/Toast';
+
+export { default as NavBar } from '@/NavBar';
+export type { NavBarProps } from '@/NavBar';
