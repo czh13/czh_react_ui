@@ -15,7 +15,7 @@ const Base = () => {
       <DemoBlock title="更换颜色">
         <Space direction="horizontal">
           <div style={{ width: '10px' }}></div>
-          <Loading color="#1890ff" />
+          <Loading color="#4507ac" />
         </Space>
       </DemoBlock>
     </DemoWrap>

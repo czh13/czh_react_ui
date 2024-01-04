@@ -17,8 +17,14 @@ export default defineConfig({
     name: 'czh-ui',
     nav: [
       { title: 'Guide', link: '/guide' },
-      { title: 'Component', link: '/components/Foo' },
-      { title: 'GitHub', link: 'https://github.com/czh13/czh_react_ui' },
+      { title: 'Component', link: '/components/space' },
     ],
+    socialLinks: {
+      github: 'https://github.com/czh13/czh_react_ui',
+    },
+    nprogress: true,
+    showLineNum: true,
+    lastUpdated: false,
+    editLink: false,
   },
 });

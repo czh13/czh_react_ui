@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 export interface ImageProps {
   src: string;

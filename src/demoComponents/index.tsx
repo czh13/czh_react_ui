@@ -1,5 +1,7 @@
-import React, { type FC } from 'react';
+import React from 'react';
 
-const Foo: FC<{ title: string }> = (props) => <h4>{props.title}</h4>;
+const index = () => {
+  return <div>index</div>;
+};
 
-export default Foo;
+export default index;

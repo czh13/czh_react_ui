@@ -2,12 +2,12 @@
 title: Demo
 group:
   title: 基础组件
-  order: 1
+  order: 0
 ---
 
 ## 介绍
 
-间距组件 Space
+Demo 组件 Demo
 ​
 
 ## 示例
