@@ -1,3 +1,4 @@
+import { formatGap } from '@/utils/formatGap';
 import cx from 'classnames';
 import React, { useMemo } from 'react';
 import './styles/index.scss';
@@ -14,8 +15,6 @@ export interface SpaceProps {
 }
 
 const classPrefix = `czh-space`;
-
-const formatGap = (gap: number | string) => (typeof gap === 'number' ? `${gap}px` : gap);
 
 const Space: React.FC<SpaceProps> = (props) => {
   const style = useMemo(() => {

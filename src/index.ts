@@ -18,3 +18,6 @@ export type { ToastProps, ToastShowProps } from '@/Toast';
 
 export { default as NavBar } from '@/NavBar';
 export type { NavBarProps } from '@/NavBar';
+
+export { default as Grid } from '@/Grid';
+export type { GridItemProps, GridProps } from '@/Grid';
