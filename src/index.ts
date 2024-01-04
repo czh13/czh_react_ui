@@ -12,3 +12,6 @@ export type { ImageProps } from '@/Image';
 
 export { default as Tabs } from '@/Tabs';
 export type { TabProps, TabsProps } from '@/Tabs';
+
+export { default as Toast } from '@/Toast';
+export type { ToastProps, ToastShowProps } from '@/Toast';
