@@ -2,7 +2,7 @@
 title: Toast
 group:
   title: 反馈组件
-  order: 2
+  order: 4
 ---
 
 ## 介绍

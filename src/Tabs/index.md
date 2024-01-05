@@ -2,7 +2,7 @@
 title: Tabs
 group:
   title: 导航组件
-  order: 1
+  order: 2
 ---
 
 ## 介绍

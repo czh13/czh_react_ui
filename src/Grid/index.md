@@ -2,7 +2,7 @@
 title: Grid
 group:
   title: 布局组件
-  order: 2
+  order: 3
 ---
 
 ## 介绍

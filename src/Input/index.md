@@ -1,13 +1,13 @@
 ---
-title: InfiniteList
+title: Input
 group:
-  title: 展示组件
-  order: 1
+  title: 表单组件
+  order: 0
 ---
 
 ## 介绍
 
-无限列表组件 InfiniteList
+输入框组件 Input
 ​
 
 ## 示例

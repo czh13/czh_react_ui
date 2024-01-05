@@ -24,3 +24,6 @@ export type { GridItemProps, GridProps } from '@/Grid';
 
 export { default as InfiniteList } from '@/InfiniteList';
 export type { InfiniteScrollProps } from '@/InfiniteList';
+
+export { default as Input } from '@/Input';
+export type { InputProps, InputRef } from '@/Input';

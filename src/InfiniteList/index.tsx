@@ -21,7 +21,8 @@ const InfiniteScroll: React.FC<InfiniteScrollProps> = React.memo((props) => {
 
   const hanldeTouch = useCallback(async () => {
     if (!observerEntry?.isIntersecting || !props.hasMore) return;
-    await doLoadMore;
+    // 为true的时候，证明见到loading，开始发起请求
+    await doLoadMore();
   }, [doLoadMore, observerEntry?.isIntersecting, props.hasMore]);
 
   useEffect(() => {

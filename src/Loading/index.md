@@ -2,7 +2,7 @@
 title: Loading
 group:
   title: 反馈组件
-  order: 1
+  order: 4
 ---
 
 ## 介绍

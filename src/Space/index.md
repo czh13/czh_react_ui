@@ -2,7 +2,7 @@
 title: Space
 group:
   title: 布局组件
-  order: 1
+  order: 3
 ---
 
 ## 介绍
