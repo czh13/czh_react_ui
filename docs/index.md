@@ -4,7 +4,7 @@ hero:
   description: A react mobile library from czh
   actions:
     - text: let's Goooo
-      link: '/components/space'
+      link: '/components/input'
 features:
   - title: React Hook
     emoji: 💎

@@ -3,7 +3,7 @@
 <p align="center">📱 A mobile component library based on the <strong>React</strong> framework
 
 <p align="center">
-  <a href="https://github.com/czh13/czh_react_ui">document</a>
+  <a href="https://czh13.github.io/czh_react_ui">document</a>
 </p>
 
 ## ✨ Feature
