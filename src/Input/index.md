@@ -22,12 +22,14 @@ group:
 
 <!-- 会生成api表格 -->
 
-| 属性      | 类型                              | 默认值     | 必填  | 说明                                                                     |
-| :-------- | :-------------------------------- | :--------- | :---- | :----------------------------------------------------------------------- |
-| gap       | number &#124; string &#124; Array | 8px        | false | 间距大小，设为数组时则分别设置垂直方向和水平方向的间距大小               |
-| direction | string                            | horizontal | false | 布局方向，可选值`horizontal` `vertical`                                  |
-| block     | boolean                           | true       | false | 是否渲染为块级元素                                                       |
-| align     | string                            | -          | false | 交叉轴，可选值`start` `end` `center` `baseline`                          |
-| justify   | string                            | -          | false | 主轴，可选值`start` `end` `center` `between` `around` `evenly` `stretch` |
-| wrap      | boolean                           | -          | false | 是否自动换行，仅在 horizontal 时有效                                     |
-| onClick   | -                                 | -          | false | 点击事件                                                                 |
+| 属性           | 类型                | 默认值    | 必填  | 说明                                          |
+| :------------- | :------------------ | :-------- | :---- | :-------------------------------------------- |
+| id             | string              | czh-input | false | id 选择器                                     |
+| value          | string              | -         | false | value 值                                      |
+| clearable      | boolean             | -         | false | 是否显示清除按钮                              |
+| className      | string              | -         | false | 类选择器                                      |
+| style          | React.CSSProperties | -         | false | 样式，可选样式`--color` `--placeholder-color` |
+| input 原生属性 | -                   | -         | false | `input 原生属性都可写入`                      |
+| onEnterPress   |                     | -         | false | 手机键盘确认 Enter 事件回调                   |
+| onValueChange  |                     | -         | false | value 值改变事件回调                          |
+| onClear        |                     | -         | false | 点击请求按钮事件回调                          |
