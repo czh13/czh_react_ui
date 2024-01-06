@@ -27,3 +27,6 @@ export type { InfiniteScrollProps } from '@/InfiniteList';
 
 export { default as Input } from '@/Input';
 export type { InputProps, InputRef } from '@/Input';
+
+export { default as Countdown } from '@/Countdown';
+export type { CountdownProps } from '@/Countdown';
