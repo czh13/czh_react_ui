@@ -30,3 +30,6 @@ export type { InputProps, InputRef } from '@/Input';
 
 export { default as Countdown } from '@/Countdown';
 export type { CountdownProps } from '@/Countdown';
+
+export { default as Swiper } from '@/Swiper';
+export type { SwiperItemProps, SwiperProps, SwiperRef } from '@/Swiper';
