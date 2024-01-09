@@ -22,7 +22,7 @@ const Base = () => {
       </DemoBlock>
 
       <DemoBlock title="card类型">
-        <Tabs activeKey="1" showTabLine={false} type="card">
+        <Tabs activeKey="1" type="card">
           <Tabs.Tab title="标签1" key="1">
             内容1
           </Tabs.Tab>
@@ -36,7 +36,7 @@ const Base = () => {
       </DemoBlock>
 
       <DemoBlock title="自定义样式风格">
-        <Tabs activeKey="1" showTabLine={false} type="card" tabListClassName="tabs-demo-list" tabActiveClassName="tabs-demo-active">
+        <Tabs activeKey="1" type="card" tabListClassName="tabs-demo-list" tabActiveClassName="tabs-demo-active">
           <Tabs.Tab title="标签1" key="1">
             内容1
           </Tabs.Tab>

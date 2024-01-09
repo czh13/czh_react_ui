@@ -29,16 +29,8 @@ export const ErrorBlock: React.FC<ErrorBlockProps> = React.memo((props) => {
     <div className={classPrefix}>
       <div className={`${classPrefix}-image`}>{imageNode}</div>
       <div className={`${classPrefix}-description`}>
-        {props.title && (
-          <div className={`${classPrefix}-description-title`}>
-            {props.title}
-          </div>
-        )}
-        {props.description && (
-          <div className={`${classPrefix}-description-subtitle`}>
-            {props.description}
-          </div>
-        )}
+        {props.title && <div className={`${classPrefix}-description-title`}>{props.title}</div>}
+        {props.description && <div className={`${classPrefix}-description-subtitle`}>{props.description}</div>}
       </div>
     </div>
   );
