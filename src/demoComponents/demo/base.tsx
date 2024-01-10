@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { Space } from 'czh';
+import { Space } from 'czh-react-mobile-ui';
 import React from 'react';
 
 const Base = () => {

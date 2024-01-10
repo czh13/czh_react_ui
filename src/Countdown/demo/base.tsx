@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { Countdown } from 'czh';
+import { Countdown } from 'czh-react-mobile-ui';
 import React from 'react';
 import './index.scss';
 

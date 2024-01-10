@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { InfiniteList, Space } from 'czh';
+import { InfiniteList, Space } from 'czh-react-mobile-ui';
 import React from 'react';
 
 const mockData = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q'];
