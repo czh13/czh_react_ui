@@ -8,6 +8,7 @@
  *
  */
 import React from 'react';
+import './styles/index.scss';
 
 export interface PopupProps {
   position?: 'left' | 'top' | 'bottom' | 'right';

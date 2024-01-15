@@ -16,7 +16,7 @@ export default defineConfig({
   themeConfig: {
     name: 'czh-ui',
     nav: [
-      { title: 'Think', link: '/guide' },
+      { title: 'Thought', link: '/guide' },
       { title: 'Component', link: '/components/input' },
     ],
     socialLinks: {

@@ -43,5 +43,8 @@ export type { CountdownProps } from '@/Countdown';
 export { default as Swiper } from '@/Swiper';
 export type { SwiperItemProps, SwiperProps, SwiperRef } from '@/Swiper';
 
+export { default as Mask } from '@/Mask';
+export type { MaskProps } from '@/Mask';
+
 export { default as Popup } from '@/Popup';
 export type { PopupProps } from '@/Popup';
