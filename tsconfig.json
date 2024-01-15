@@ -8,9 +8,9 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "czh": ["src"],
+      "czh-react-mobile-ui": ["src"],
       "@/*": ["src/*"],
-      "czh/*": ["src/*", "*"]
+      "czh-react-mobile-ui/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]

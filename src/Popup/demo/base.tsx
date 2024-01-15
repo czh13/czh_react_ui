@@ -1,14 +1,6 @@
-/*
- * @Author: milton
- * @Date: 2024-01-15 15:03:04
- * @LastEditors: milton caizhihao@guidefuture.com
- * @LastEditTime: 2024-01-15 15:20:32
- * @FilePath: \react-cocashy-payf:\test\project\react\dumi_react_ui\src\Popup\demo\base.tsx
- * @Description:
- *
- */
-import { Popup } from 'czh';
+import { Popup } from 'czh-react-mobile-ui';
 import React, { useState } from 'react';
+import './index.scss';
 
 const Base = () => {
   const [visible1, setVisible1] = useState<boolean>(false);

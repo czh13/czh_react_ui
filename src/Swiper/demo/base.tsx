@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { Space, Swiper, SwiperRef } from 'czh';
+import { Space, Swiper, SwiperRef } from 'czh-react-mobile-ui';
 import React from 'react';
 import './index.scss';
 
