@@ -22,6 +22,8 @@ group:
 
 <!-- 会生成api表格 -->
 
-| 属性  | 类型   | 默认值 | 必填  | 说明 |
-| :---- | :----- | :----- | :---- | :--- |
-| color | string | #000   | false | -    |
+| 属性  | 类型   | 默认值  | 必填  | 说明                 |
+| :---- | :----- | :------ | :---- | :------------------- |
+| color | string | #000    | false | 颜色                 |
+| size  | number | 30      | false | 大小                 |
+| type  | string | default | false | `default` `special`; |
