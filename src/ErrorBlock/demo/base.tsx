@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { ErrorBlock } from 'czh-react-mobile-ui';
+import { ErrorBlock } from 'czh';
 import React from 'react';
 
 const Base = () => {

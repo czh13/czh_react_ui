@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { Image, Space } from 'czh-react-mobile-ui';
+import { Image, Space } from 'czh';
 import React from 'react';
 // @ts-ignore
 import demoImg from './demo.png';

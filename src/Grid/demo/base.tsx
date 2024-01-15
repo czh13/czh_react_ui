@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { Grid } from 'czh-react-mobile-ui';
+import { Grid } from 'czh';
 import React from 'react';
 import './index.scss';
 

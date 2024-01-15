@@ -1,3 +1,12 @@
+/*
+ * @Author: milton
+ * @Date: 2023-12-29 11:49:22
+ * @LastEditors: milton caizhihao@guidefuture.com
+ * @LastEditTime: 2024-01-15 15:20:23
+ * @FilePath: \react-cocashy-payf:\test\project\react\dumi_react_ui\src\index.ts
+ * @Description:
+ *
+ */
 export { default as ErrorBlock } from '@/ErrorBlock';
 export type { ErrorBlockProps } from '@/ErrorBlock';
 
@@ -33,3 +42,6 @@ export type { CountdownProps } from '@/Countdown';
 
 export { default as Swiper } from '@/Swiper';
 export type { SwiperItemProps, SwiperProps, SwiperRef } from '@/Swiper';
+
+export { default as Popup } from '@/Popup';
+export type { PopupProps } from '@/Popup';

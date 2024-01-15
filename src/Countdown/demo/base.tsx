@@ -1,6 +1,15 @@
+/*
+ * @Author: milton
+ * @Date: 2024-01-05 18:30:56
+ * @LastEditors: milton caizhihao@guidefuture.com
+ * @LastEditTime: 2024-01-15 15:24:34
+ * @FilePath: \react-cocashy-payf:\test\project\react\dumi_react_ui\src\Countdown\demo\base.tsx
+ * @Description:
+ *
+ */
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { Countdown } from 'czh-react-mobile-ui';
+import { Countdown } from 'czh';
 import React from 'react';
 import './index.scss';
 

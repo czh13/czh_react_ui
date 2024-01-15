@@ -1,6 +1,6 @@
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import { useLockFn } from '@/hooks/useLockFn';
-import { Loading } from 'czh-react-mobile-ui';
+import { Loading } from 'czh';
 import React, { useCallback, useEffect, useRef } from 'react';
 
 export interface InfiniteScrollProps {

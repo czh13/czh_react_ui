@@ -1,6 +1,6 @@
 import DemoBlock from '@/block/demo-block';
 import DemoWrap from '@/block/demo-wrap';
-import { NavBar, Toast } from 'czh-react-mobile-ui';
+import { NavBar, Toast } from 'czh';
 import React from 'react';
 import { FiAlignLeft, FiSearch } from 'react-icons/fi';
 
