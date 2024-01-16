@@ -5,7 +5,7 @@ import './styles/index.scss';
 
 export interface MaskProps {
   visible: boolean;
-  onMaskClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+  onMaskClick?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
   style?: React.CSSProperties & Partial<Record<'--z-index' | '--background', string>>;
 }
 
@@ -34,7 +34,7 @@ const Mask: React.FC<MaskProps> = (props) => {
   const onMask = useCallback(
     (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
       e.stopPropagation();
-      props.onMaskClick(e);
+      props.onMaskClick?.(e);
     },
     [props.onMaskClick],
   );
