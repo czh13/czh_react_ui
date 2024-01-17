@@ -24,7 +24,7 @@ group:
 
 | 属性        | 类型                | 默认值 | 必填  | 说明                                        |
 | :---------- | :------------------ | :----- | :---- | :------------------------------------------ |
-| position    | string              | -      | false | 交叉轴，可选值`left` `right` `top` `bottom` |
+| position    | string              | -      | true  | 交叉轴，可选值`left` `right` `top` `bottom` |
 | visible     | boolean             | -      | true  | 是否显示弹出层                              |
 | mask        | boolean             | -      | false | 是否显示遮罩层                              |
 | style       | React.CSSProperties | -      | false | 内联样式                                    |

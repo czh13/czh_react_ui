@@ -82,4 +82,9 @@ const Popup: React.FC<PopupProps> = (props) => {
   );
 };
 
+Popup.defaultProps = {
+  visible: false,
+  mask: true,
+};
+
 export default Popup;
