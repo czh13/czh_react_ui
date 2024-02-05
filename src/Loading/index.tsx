@@ -14,6 +14,7 @@ export interface LoadingProps {
   color?: string;
   size?: number;
   type?: 'default' | 'special';
+  dataTestid?: string;
 }
 type LoadingStyleType = React.CSSProperties & Partial<Record<'--color', string>>;
 
@@ -21,7 +22,7 @@ const classPrefix = 'czh_loading';
 
 const Loading: React.FC<LoadingProps> = (props) => {
   return (
-    <div className={classPrefix} style={{ '--color': props.color, '--size': `${props.size}px` } as LoadingStyleType}>
+    <div data-testid={props.dataTestid} className={classPrefix} style={{ '--color': props.color, '--size': `${props.size}px` } as LoadingStyleType}>
       <div className={`${classPrefix}_main_${props.type}`}></div>
     </div>
   );

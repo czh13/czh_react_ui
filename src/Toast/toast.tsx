@@ -1,12 +1,3 @@
-/*
- * @Author: milton
- * @Date: 2023-12-07 12:07:52
- * @LastEditors: milton caizhihao@guidefuture.com
- * @LastEditTime: 2023-12-19 16:31:54
- * @FilePath: \react-cocashy-payf:\test\project\react\flb-cashier-ssr\base\Toast\toast.tsx
- * @Description:
- *
- */
 import Loading from '@/Loading';
 import cx from 'classnames';
 import React, { useEffect, useMemo, useRef, useState } from 'react';

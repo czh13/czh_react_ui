@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { default as Toast, ToastProps } from './toast';
 
-export type ToastShowProps = ToastProps;
+export type ToastShowProps = ToastProps | string;
 
 export const show = (p: ToastShowProps) => {
   const props = typeof p === 'string' ? { content: p } : p;
