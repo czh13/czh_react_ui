@@ -1,6 +1,6 @@
 ---
 hero:
-  title: React_UI
+  title: React-UI
   description: A react mobile library from czh
   actions:
     - text: let's Goooo

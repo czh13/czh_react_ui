@@ -1,12 +1,3 @@
-/*
- * @Author: milton
- * @Date: 2024-01-15 15:03:04
- * @LastEditors: milton caizhihao@guidefuture.com
- * @LastEditTime: 2024-01-15 15:19:41
- * @FilePath: \react-cocashy-payf:\test\project\react\dumi_react_ui\src\Popup\index.tsx
- * @Description:
- *
- */
 import Mask from '@/Mask';
 import { animated, useIsomorphicLayoutEffect, useSpring } from '@react-spring/web';
 import cx from 'classnames';

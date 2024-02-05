@@ -16,8 +16,8 @@ export default defineConfig({
   themeConfig: {
     name: 'czh-ui',
     nav: [
-      { title: 'Thought', link: '/guide' },
-      { title: 'Component', link: '/components/input' },
+      { title: '前言', link: '/guide' },
+      { title: '组件', link: '/components/input' },
     ],
     socialLinks: {
       github: 'https://github.com/czh13/czh_react_ui',
