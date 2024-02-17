@@ -48,3 +48,6 @@ export type { MaskProps } from '@/Mask';
 
 export { default as Popup } from '@/Popup';
 export type { PopupProps } from '@/Popup';
+
+export { default as Ellipsis } from '@/Ellipsis';
+export type { EllipsisProps } from '@/Ellipsis';
