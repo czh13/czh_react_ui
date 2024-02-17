@@ -1,8 +1,8 @@
 ---
 title: Ellipsis
 group:
-  title: 基础组件
-  order: 99
+  title: 展示组件
+  order: 1
 ---
 
 ## 介绍
