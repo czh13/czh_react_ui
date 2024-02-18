@@ -1,4 +1,5 @@
 import { useIsomorphicLayoutEffect } from '@/hooks/useIsomorphicLayoutEffect';
+import useResizeObserver from '@/hooks/useResizeObserver';
 import { pxToNumber } from '@/utils/pxToNumber';
 import React, { useCallback, useRef, useState } from 'react';
 import './styles/index.scss';
@@ -46,7 +47,14 @@ const Ellipsis: React.FC<EllipsisProps> = (props) => {
     const lineHeight = pxToNumber(originStyles.lineHeight); //单行的高度
 
     const height = container.getBoundingClientRect().height; // 省略前的高度，offsetHeight好像也可以
-    const maxHeight = lineHeight * props.rows!; //省略后想要的高度
+    const maxHeight = lineHeight * props.rows!; //省略后想要的高度，总高度
+
+    /**
+     *  check 的函数，用于二分查找确定文本内容的截取位置，以使得截取后的文本高度不超过指定的最大高度 maxHeight。
+        函数的输入参数是 left 和 right，表示文本的起始索引和结束索引。在函数内部，使用 l 和 r 分别表示当前查找的左右边界，text 用于保存最终确定的截取文本内容。
+        在 while 循环中，通过取左右边界的中间值 m，将文本分成两部分。然后，将分割出来的文本拼接成完整的文本内容，并将其赋值给新创建的 div 元素进行计算高度。
+        如果计算出来的高度超过了指定的最大高度 maxHeight，则将右边界 r 缩小，否则将左边界 l 扩大。直到左右边界相遇，表示找到了截取文本内容的位置。
+     */
 
     // 二分查找
     const check = (left: number, right: number) => {
@@ -55,15 +63,19 @@ const Ellipsis: React.FC<EllipsisProps> = (props) => {
       let text = '';
 
       while (l < r) {
-        const m = Math.floor((l + r) / 2);
+        const m = Math.floor((l + r) / 2); // index中间值
         if (l === m) {
           break;
         }
 
-        const tempText = props.text.slice(l, m);
+        // React makes it painless to create interactive UIs. Design simple views for each state in your application, and
+        // React will efficiently update and render just the right components when your data changes
+        const tempText = props.text.slice(l, m); //不断截取，tempText会越来越少
+
         container.innerText = `${text}${tempText}...${props.expand}`;
         const height = container.getBoundingClientRect().height; // 当前高度
 
+        // 如果当前高度大于设置的高度
         if (height > maxHeight) {
           r = m;
         } else {
@@ -82,14 +94,16 @@ const Ellipsis: React.FC<EllipsisProps> = (props) => {
       setExceeded(true);
       const end = props.text.length;
       const ellipsisedValue = check(0, end);
-      // setEllipsised(ellipsisedValue);
+      setEllipsised(ellipsisedValue);
     }
     document.body.removeChild(container);
   }, [props.expand, props.rows, props.text]);
 
   useIsomorphicLayoutEffect(() => {
     calcEllipsised();
-  }, []);
+  }, [calcEllipsised]);
+
+  useResizeObserver(calcEllipsised, ellipsisRef);
 
   const renderContent = () => {
     // 没有溢出情况
