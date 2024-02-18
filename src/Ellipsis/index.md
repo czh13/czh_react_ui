@@ -24,7 +24,7 @@ group:
 
 | 属性     | 类型            | 默认值 | 必填  | 说明           |
 | :------- | :-------------- | :----- | :---- | :------------- |
-| text     | string          | -      | true  | 文案           |
-| rows     | number          | -      | false | 展示行数       |
-| collapse | React.ReactNode | -      | false | 收起处显示内容 |
-| expand   | React.ReactNode | -      | false | 展开处显示内容 |
+| text     | string          | ''     | true  | 文案           |
+| rows     | number          | 1      | false | 展示行数       |
+| collapse | React.ReactNode | ''     | false | 收起处显示内容 |
+| expand   | React.ReactNode | ''     | false | 展开处显示内容 |
