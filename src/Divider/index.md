@@ -22,13 +22,12 @@ group:
 
 <!-- 会生成api表格 -->
 
-| 属性        | 类型                | 默认值 | 必填  | 说明                                        |
-| :---------- | :------------------ | :----- | :---- | :------------------------------------------ |
-| position    | string              | -      | false | 交叉轴，可选值`left` `right` `top` `bottom` |
-| visible     | boolean             | -      | true  | 是否显示弹出层                              |
-| mask        | boolean             | -      | false | 是否显示遮罩层                              |
-| style       | React.CSSProperties | -      | false | 内联样式                                    |
-| className   | string              | -      | false | 类名                                        |
-| onMaskClick | -                   | -      | false | 遮罩层点击事件                              |
-| afterShow   | -                   | -      | false | 弹出层显示之后回调                          |
-| afterClose  | -                   | -      | false | 弹出层关闭之后回调                          |
+| 属性            | 类型                | 默认值     | 必填  | 说明                                                                 |
+| :-------------- | :------------------ | :--------- | :---- | :------------------------------------------------------------------- |
+| contentPosition | string              | center     | false | 文字显示位置，可选值`left` `right` `center`                          |
+| dashed          | boolean             | -          | true  | 是否使用虚线，默认实线                                               |
+| direction       | string              | horizontal | false | 显示方向，可选值`vertical` `horizontal`                              |
+| borderColor     | string              | #c1c1c1    | false | 线条颜色                                                             |
+| hairline        | boolean             | true       | false | 是否使用 0.5px 线                                                    |
+| children        | React.ReactNode     | -          | false | 显示内容                                                             |
+| style           | React.CSSProperties | -          | false | 内联样式，可选样式`--border-width` `--border-padding` `--text-color` |
