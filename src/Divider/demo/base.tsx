@@ -24,7 +24,9 @@ const Base = () => {
       </DemoBlock>
 
       <DemoBlock title="自定义样式">
-        <Divider style={{ '--border-width': '1px', '--border-color': 'blue', '--text-color': 'blue' }}>自定义样式</Divider>
+        <Divider style={{ '--border-width': '1px', '--text-color': 'blue' }} borderColor="blue">
+          自定义样式
+        </Divider>
       </DemoBlock>
 
       <DemoBlock title="竖线分割">
