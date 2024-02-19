@@ -18,7 +18,9 @@
 ### Installation
 
 ```javascript
-coming soon....
+npm install czh-react-mobile-ui
+yarn add czh-react-mobile-ui
+pnpm add czh-react-mobile-ui
 ```
 
 #### Code Snippet

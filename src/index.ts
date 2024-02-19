@@ -51,3 +51,6 @@ export type { PopupProps } from '@/Popup';
 
 export { default as Ellipsis } from '@/Ellipsis';
 export type { EllipsisProps } from '@/Ellipsis';
+
+export { default as Divider } from '@/Divider';
+export type { DividerProps } from '@/Divider';
