@@ -30,7 +30,7 @@ const Ellipsis: React.FC<EllipsisProps> = (props) => {
     // 创建一个新的div，然后将原有div的样式重新添加到新的div上
     const container = document.createElement('div');
     const originStyles = window.getComputedStyle(element); //获取旧div的所有样式
-    const styleName: string[] = Array.prototype.slice.apply(originStyles); //将一个键值对的对象转化为string的数组
+    const styleName: string[] = Array.prototype.slice.apply(originStyles); //伪数组转数组
     // 将样式全部添加到新div
     styleName.forEach((name) => {
       container.style.setProperty(name, originStyles.getPropertyValue(name));
