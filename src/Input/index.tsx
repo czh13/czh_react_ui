@@ -21,6 +21,8 @@ export interface InputRef {
 
 const classPrefix = `czh-input`;
 
+// 使用forwardRef包裹，useImperativeHandle暴露方法
+
 const Input = React.forwardRef<InputRef, InputProps>((props, ref) => {
   const navtiveInputRef = useRef<HTMLInputElement | null>(null);
   const [value, setValue] = useState(props.value);

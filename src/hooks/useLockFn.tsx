@@ -17,7 +17,6 @@ export const useLockFn = <P extends any[] = any[], V = any>(fn: (...args: P) => 
       } catch (e) {
         lockRef.current = false;
         throw e;
-      } finally {
       }
     },
     [fn],

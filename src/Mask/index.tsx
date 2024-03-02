@@ -3,6 +3,8 @@ import { animated, useIsomorphicLayoutEffect, useSpring } from '@react-spring/we
 import React, { useCallback, useState } from 'react';
 import './styles/index.scss';
 
+//
+
 export interface MaskProps {
   visible: boolean;
   onMaskClick?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;

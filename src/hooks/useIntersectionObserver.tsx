@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+// IntersectionObserver当元素进入可视化区域的时候，触发调用，isInteresting
+
 export interface IntersectionObserverOptions extends IntersectionObserverInit {
   freezeOnceVisible?: boolean;
 }

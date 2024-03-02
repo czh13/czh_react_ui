@@ -3,6 +3,11 @@ import { useLockFn } from '@/hooks/useLockFn';
 import { Loading } from 'czh-react-mobile-ui';
 import React, { useCallback, useEffect, useRef } from 'react';
 
+// 使用useIntersectionObserver和useLockFn
+// 在子元素后面创建div，当可视化滑动到div，证明到底部了，开始请求后面的数据
+// 这里需要保证页面只执行一个列表请求，避免并发，用户可能往上滑又往下滑
+// 使用useRef声明一个锁定
+
 export interface InfiniteScrollProps {
   hasMore: boolean;
   footer?: React.ReactNode;

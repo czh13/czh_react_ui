@@ -4,6 +4,9 @@ import { pxToNumber } from '@/utils/pxToNumber';
 import React, { useCallback, useRef, useState } from 'react';
 import './styles/index.scss';
 
+// 根据一行文字的行高linehight，与当前渲染文字的行高getBoundingClientRect().height进行比较，通过二分查找的方式while循环，不断截取
+// window.getComputedStyle(element)
+
 export interface EllipsisProps {
   text: string;
   rows?: number;
