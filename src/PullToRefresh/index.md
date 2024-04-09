@@ -1,13 +1,13 @@
 ---
-title: Demo
+title: PullRefresh
 group:
-  title: 基础组件
-  order: 99
+  title: 反馈组件
+  order: 4
 ---
 
 ## 介绍
 
-Demo 组件 Demo
+下拉刷新组件 PullToRefresh
 ​
 
 ## 示例

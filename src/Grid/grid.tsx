@@ -12,6 +12,7 @@ export interface GridProps {
 const classPrefix = 'czh-grid';
 
 const Grid: React.FC<GridProps> = (props) => {
+
   const style = useMemo(() => {
     if (props.gap) {
       if (Array.isArray(props.gap)) {
